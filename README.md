@@ -1,4 +1,4 @@
-# Scheduling program written for C867-Scripting-and-Programming
+# Student scheduling tool 
 
 Program is to be used for tracking student course schedules. 
 

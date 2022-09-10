@@ -1,7 +1,9 @@
-# Program written for C867-Scripting-and-Programming
+# Scheduling program written for C867-Scripting-and-Programming
 
 Program is to be used for tracking student course schedules. 
 
-The program uses two classes (students and rosters), each with its own attributes and methods. Each instance of roster contained an array of students enrolled in the course. 
+The program uses two classes (students and rosters) for scheduling. 
 
-The scheduling application uses a method to parse the student data (converted from CSV to student objects in the roster array), then uses the data to display schedule information such as the class roster list or the average days a student has been in the course.
+The program maintains a current roster of students within a given course. Student data for the program includes student ID, first name, last name, email address, age, an array of the number of days to complete each course, and degree program.
+
+The program reads a list of five students and uses function calls to manipulate data. While parsing the list of data, the program creates student objects. The entire student list is stored in one array of students called classRosterArray. Specific data-related outputs are directed to the console.
